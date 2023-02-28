@@ -2,7 +2,7 @@
 Released code for our ICLR23 paper: [KNN Prompting: Beyond-Context Learning with Calibration-Free Nearest Neighbor Inference](https://openreview.net/forum?id=fe2S7736sNS)
 
 <div  align="center">  
-<img src="./kNNPrompting.png" width = "462" height = "191.5" alt="Framework of kNNPrompting" align=center />
+<img src="./kNNPrompting.png" width = "693" height = "287.25" alt="Framework of kNNPrompting" align=center />
 </div>  
 
 ## Preparation
@@ -43,11 +43,12 @@ Run kNNPrompting or In-Context Learning as follows, check the configuration in t
 ```
 bash run_knnprompting.sh
 ```
+or
 ```
 bash run_icl.sh
 ```
 ## Results
-As the entire framework is training-free, you shall get exact results w.r.t. random seeds as follows (invariant to different environment):
+As the entire framework is training-free, you shall get **exact** results w.r.t. random seeds as follows (invariant to different environment):
 
 | Seed                              | 1      | 2      | 3      | 4      | 5      |
 | --------------------------------- | ------ | ------ | ------ | ------ | ------ |
@@ -57,8 +58,8 @@ As the entire framework is training-free, you shall get exact results w.r.t. ran
 Full results are listed in the paper (see Table 8 and others).
 
 ## Citation
-If you have any quesitons, feel free to open an issue.\
-If you find this repo useful, please cite us as:
+ * If you have any quesitons, feel free to open an issue.
+ * If you find this repo useful, please cite us as:
 ```
 @inproceedings{
 xu2023knn,
