@@ -50,10 +50,10 @@ bash run_icl.sh
 ## Results
 As the entire framework is training-free, you shall get **exact** results w.r.t. random seeds as follows (invariant to different environment):
 
-| Seed                              | 1      | 2      | 3      | 4      | 5      |
-| --------------------------------- | ------ | ------ | ------ | ------ | ------ |
-| **In-Context Learning** (gpt2-xl) | 0.8438 | 0.8125 | 0.7227 | 0.8633 | 0.8242 |
-| **KNN Prompting** (gpt2-xl)       | 0.8555 | 0.8203 | 0.8750 | 0.8984 | 0.8672 |
+| Seed                                | 1      | 2      | 3      | 4      | 5      |
+| ----------------------------------- | ------ | ------ | ------ | ------ | ------ |
+| **In-Context Learning** (gpt2-xl)   | 0.8438 | 0.8125 | 0.7227 | 0.8633 | 0.8242 |
+| **KNN Prompting** (gpt2-xl, N=1024) | 0.8711 | 0.8867 | 0.8906 | 0.8711 | 0.8906 |
 
 Full results are listed in the paper (see Table 8 and others).
 

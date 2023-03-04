@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=0
 
 LLM=gpt2-xl
 LLM_DIR=./llm/${LLM}
@@ -40,7 +40,7 @@ else
 N_DEMO_SHOT=1
 fi
 
-N_TRAIN_SHOT=128
+N_TRAIN_SHOT=1024
 KNN=3
 for SEED in 1 2 3 4 5; do
 
