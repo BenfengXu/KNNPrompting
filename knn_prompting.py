@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Zero-shot inference using T0pp for relation classification.")
+    parser = argparse.ArgumentParser(description="KNN Prompting.")
     parser.add_argument(
         "--llm_dir",
         type=str,
